@@ -34,5 +34,8 @@ opt.smartcase = true
 opt.termguicolors = true
 opt.signcolumn = "yes"
 
+-- theme
+vim.cmd[[colorscheme tokyonight-moon]]
+
 
 
