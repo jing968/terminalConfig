@@ -29,8 +29,8 @@ return require('packer').startup(function(use)
   }
   use { -- file tree
     'nvim-tree/nvim-tree.lua',
-    requires = { 
-      'nvim-tree/nvim-web-devicons', 
+    requires = {
+      'nvim-tree/nvim-web-devicons',
     }
   }
   use('christoomey/vim-tmux-navigator') -- navigator for vim windows
@@ -55,7 +55,7 @@ return require('packer').startup(function(use)
     'nvim-telescope/telescope.nvim', tag = '0.1.1',  -- 文件检索
     requires = { {'nvim-lua/plenary.nvim'} }
   }
-  if packer_bootstrap then  
+  if packer_bootstrap then
     require('packer').sync()
   end
 end)
