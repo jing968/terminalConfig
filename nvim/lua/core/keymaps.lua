@@ -14,6 +14,7 @@ keymap.set("n", "<leader>sh", "<C-w>s") -- new horizontal screen
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 -- nvim -tree navigation
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+keymap.set("n", "<leader>lg", ":LazyGit<CR>")
 
 
 --- VISUAL MODE --
